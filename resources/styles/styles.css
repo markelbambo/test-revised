@@ -1,0 +1,111 @@
+body{
+	margin: 0px;
+	color: #fff;
+	border: thin solid #ddd !important;
+}
+#header{
+	min-height:35px;
+	position: fixed;
+    top: 0px;
+    width: 100%;
+	text-align:center;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	z-index:2;
+}
+#header .mainmenu{
+	position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    right: 10px;
+}
+#header .cart{
+	position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 10px;
+}
+
+#contents{
+	min-height:300px;
+    overflow: auto;
+	margin: 35px 0;
+}
+#footer{
+	min-height:50px;
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	text-align:center;
+}
+
+.categBox{
+	width: 95%;
+    margin: 10px auto;
+	border-radius: 3px;
+	text-align:center;
+}
+.categBox-Header{
+	width: 95%;
+    height: 30px;
+    margin: 10px auto;
+	border-radius: 3px;
+	text-align:center;
+}
+.categBox-Header h3{
+	margin-top: 0px;
+}
+.categBox-Header  span{
+	background-color: transparent;
+    color: #333;
+}
+
+.categBox-content-header{
+	width: 100%;
+    height: 50px;
+    border-radius: 3px 3px 0px 0px;
+	text-align:center;
+}
+.categBox-content-body{
+	height: 150px;
+    width: 100%;
+    border-radius: 0px 0px 3px 3px;
+	text-align: center;
+}
+.categBox-content-body-description{
+	/*width: 50%;
+    float: left;*/
+}
+.categBox-content-body-image{
+	width: 40%;
+    float: left;
+}
+
+.categBox-content-body-image img{
+	height: 85px;
+	max-width: 140px;
+}
+.categBox-content-body-main{
+	width:100%;
+	float:left;
+}
+.categBox-content-body-main-rigth{
+	width: 60%;
+    float: left;
+}
+.categBox-content-body-main-rigth-buttons{
+	margin-top: 15px;
+}
+.price-label{
+	padding: 7px 18px !important;
+	margin: 0 15px !important;
+	font-size: small !important;
+}
+
+.vertical-alignments{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
